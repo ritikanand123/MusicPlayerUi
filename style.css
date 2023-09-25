@@ -297,7 +297,7 @@ body{
 }
 
 .controlBar input{
-    -webkit-appearance: none;
+    /* -webkit-appearance: none; */
     background: rgb(43, 39, 39);
     cursor: pointer;
     width: 40%;
