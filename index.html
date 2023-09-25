@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="brand">
+            <img class = "logo" src="Logo.png">
+            <div class="brandName">
+                <p >Ninja</p>
+                <p class="heavytext">Studio</p>
+            </div>
+        </div>
+        
+        <div class="Favourites heavytext">
+            Favourites
+        </div>
+
+        <div class="nav-Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="  Search">
+            <i class="fa-solid fa-microphone"></i>   
+        </div>
+        
+        <div class="notification">
+            <i class="fa-solid fa-bell"></i>
+        </div>
+
+        <div class="profileImg">
+            <img src="profile.png" alt="">
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="left">
+            <div class="poster ">
+                <img src="poster3.jpg" class="poster3 ">
+                <img src="poster1.jpg" alt="" class=" poster1">
+                <img src="poster2.jpg" alt="" class="poster2">
+    
+            </div>
+
+            <div class="latestRelease">
+                <p id = latestReleasesText>Lates Releases</p>
+
+                <div class="latestSongs">
+
+                    <div class="latestSongAlign">
+                        <img src="latestsong.jpg" alt="" class="latestimage">
+                        No Way
+                        <div class = "latestReleaseOption">
+                            <i class="fa-solid fa-bars"></i>
+                            <p>4:40</p>
+                        </div>  
+                    </div>
+
+                    <div class="latestSongAlign">
+                        <img src="latestsong.jpg" alt="" class="latestimage">
+                        No Way
+                        <div class = "latestReleaseOption">
+                            <i class="fa-solid fa-bars"></i>
+                            <p>4:40</p>
+                        </div>  
+                    </div>
+                    <div class="latestSongAlign">
+                        <img src="latestsong.jpg" alt="" class="latestimage">
+                        No Way
+                        <div class = "latestReleaseOption">
+                            <i class="fa-solid fa-bars"></i>
+                            <p>4:40</p>
+                        </div>  
+                    </div>
+                    <div class="latestSongAlign">
+                        <img src="latestsong.jpg" alt="" class="latestimage">
+                        No Way
+                        <div class = "latestReleaseOption">
+                            <i class="fa-solid fa-bars"></i>
+                            <p>4:40</p>
+                        </div>  
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div>
+                <p style="color: white; font-weight: 700;">Popular Artists</p>
+                <div class="popularArtist">
+                
+                    <div class="profileArtistSection">
+                        
+                        <img src="Artistprofile1.jpg" class="profileArtist">
+                        <p>Sidhu Mossewala</p>
+                        
+                    </div>
+                    <div class="profileArtistSection">
+                        
+                        <img src="Artistprofile2.jpg" class="profileArtist">
+                        <p>Karan Aujla</p>
+                        
+                    </div>
+                    <div class="profileArtistSection">
+                        
+                        <img src="Artistprofile3.jpg" class="profileArtist">
+                        <p>Ranjit Bawa</p>
+                        
+                    </div>
+                    <div class="profileArtistSection">
+                        
+                        <img src="Artistprofile4.jpg" class="profileArtist">
+                        <p>Tarsem Jassar</p>
+                        
+                    </div>
+                    <div class="profileArtistSection">
+                        
+                        <img src="Artistprofile5.jpg" class="profileArtist">
+                        <p>Mankirt Aulakh</p>
+                        
+                    </div>
+
+
+
+                </div>
+            </div>
+            
+            
+    
+    
+        </div> 
+        
+        <div class="queue">
+
+            <div class="header">
+                <p style="color: white; font-weight: 700;">Queue</p>
+                <select >
+                    <option >Queue</option>
+                    <option >Playlist</option>
+                </select>
+            </div>
+
+            <div class="PlaylistSongs">
+
+                <div class="queueSection">
+                    <p class="numbering">01</p>
+                    <img src="poster2.jpg" class = "queueSongProfile">
+                    <div class="nameandartist">
+                        <p>Rim vs Jhanjaar</p>
+                        <p id = "artistName">Karan Aujla</p>
+                    </div>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="queueSection">
+                    <p class="numbering">02</p>
+                    <img src="queue2.jpg" class = "queueSongProfile">
+                    <div class="nameandartist">
+                        <p>Difference</p>
+                        <p id = "artistName">Amrit Mann</p>
+                    </div>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="queueSection">
+                    <p class="numbering">03</p>
+                    <img src="playlist3.jpg" class = "queueSongProfile">
+                    <div class="nameandartist">
+                        <p>Apna Bana Le</p>
+                        <p id = "artistName">Arjit Singh</p>
+                    </div>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="queueSection">
+                    <p class="numbering">04</p>
+                    <img src="playlist4.jpg" class = "queueSongProfile">
+                    <div class="nameandartist">
+                        <p>Main Rang Sharbaton ka</p>
+                        <p id = "artistName">Pritam,Atif Aslam</p>
+                    </div>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="queueSection">
+                    <p class="numbering">05</p>
+                    <img src="playlist5.jpg" class = "queueSongProfile">
+                    <div class="nameandartist">
+                        <p>Kahani suno 2.0</p>
+                        <p id = "artistName">kaifi khalil</p>
+                    </div>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="queueSection">
+                    <p class="numbering">06</p>
+                    <img src="playlist6.jpg" class = "queueSongProfile">
+                    <div class="nameandartist">
+                        <p>Daku</p>
+                        <p id = "artistName">Chani Natttan,Inderpal Moga</p>
+                    </div>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="queueSection">
+                    <p class="numbering">07</p>
+                    <img src="playlist7.jpg" class = "queueSongProfile">
+                    <div class="nameandartist">
+                        <p>Dawood</p>
+                        <p id = "artistName">Sidhu Moose Wala</p>
+                    </div>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="queueSection">
+                    <p class="numbering">08</p>
+                    <img src="playlist8.jpg" class = "queueSongProfile">
+                    <div class="nameandartist">
+                        <p>Levels</p>
+                        <p id = "artistName">Sidhu Mosse Wala , Sunny Malton</p>
+                    </div>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+
+            </div>
+            
+    
+        </div>
+
+    </div>
+    
+    <div class="controlBar">
+
+        <div class="panel1">
+            <img src="poster2.jpg" alt="" style="height: 50px;">
+            <div class="songartistname">
+                <p>Rim vs Jhanjaar</p>
+                <p style="color: grey; margin-top: 3px;">Karan Aujla</p>
+            </div>
+            <div class="pane1img">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-ban"></i>
+            </div>
+            
+        </div>
+        <div class="panel2">
+
+            
+            <div class = "playingSong">
+                <audio src="Rim Vs Jhanjar.mp3" controls></audio>
+            </div>
+
+        </div>
+        <div class="panel3">
+
+        </div>
+
+        <!-- <input type="range"> -->
+    </div>
+
+    <br>
+    <br><br><br><br><br><br><br><br>
+</body>
+</html>

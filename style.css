@@ -1,0 +1,345 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:' 
+     sans-serif;
+}
+
+.navbar{
+
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.logo{
+    height: 50px;
+    background-size: cover;
+    border: none;
+}
+
+body{
+    background-color: #341a36;
+    
+}
+
+.brandName{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 10px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    width : 10%;
+}
+
+.brand:hover{
+    transform: scale(1.5);
+}
+
+.heavytext{
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+
+.Favourites{
+    color: white;
+    width: 30%;
+}
+
+.nav-Search i{
+    color:#dddddd;
+    margin: 5px;
+}
+.nav-Search input{
+    border: none;
+    height: 20px;
+    width: 90%;
+    background-color:#452247 ;
+    color: #dddddd;
+}
+.nav-Search{
+    align-items: center;
+    background-color:#452247;
+    border-radius: 10px;
+    width: 20%;
+    height: 30px;
+    display: flex;
+}
+
+.nav-Search:hover{
+    transform: scale(1.2);
+}
+
+
+.notification i{
+    color: white;
+    height: 1.5rem;
+}
+
+.notification:hover{
+    transform:scale(1.2);
+}
+
+.profileImg:hover{
+    transform: scale(1.5);
+}
+
+.profileImg img{
+    height: 50px;
+    border-radius: 100%;
+}
+
+.poster{
+    align-items: center;
+    display: flex;
+    
+}
+
+
+.poster1{
+    transition-duration: 0.2s;
+    z-index: 2;
+    height: 150px;
+    /* transition-timing-function: ease; */
+}
+
+.poster1:hover{
+    transform: scale(1.3);
+}
+
+.poster2{
+    transition-duration: 0.2s;
+    z-index: 1;
+    height: 120px;
+    position: relative;
+    right: 20px;    
+}
+
+.poster2:hover{
+    z-index: 3;
+    transform: scale(2);
+}
+
+.poster3{
+    transition-duration: 0.2s;
+    z-index: 1;
+    height: 120px;
+    position: relative;
+    left : 10px;
+}
+
+.poster3:hover{
+    z-index: 3;
+    transform: scale(2);
+}
+
+.left{
+    align-items: center;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 100px;
+    /* background-color: white; */
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+#latestReleasesText{
+    color : white;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+#latestRelease{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.latestimage{
+    height: 80px;
+    margin: 10px;
+}
+
+.latestSongAlign{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-right: 18%;
+    transition-duration: 0.2s;
+
+}
+
+.latestSongAlign:hover{
+    transform: scale(1.2);
+}
+
+.latestReleaseOption{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.70rem;
+    margin-left: 50px;
+}
+
+.latestReleaseOption *{
+    margin-bottom: 15px;
+}
+
+.latestSongs{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 20px;
+}
+
+.profileArtist{
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.profileArtistSection:hover{
+    transform: scale(1.5);
+}
+
+.profileArtistSection{
+    color: white;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.popularArtist{
+    display: flex;
+}
+
+.popularArtist p{
+    color: white;
+}
+
+.queue{
+    /* background-color: black; */
+    width: 32%;
+    padding-right: 50px;
+}
+.header{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.header select{
+    color: lightgreen;
+    background-color: #341a36;
+    border: none;
+    margin-left: 60%;
+}
+
+.queueSongProfile{
+    height: 60px;
+    margin-left: 10px;
+}
+
+.numbering{
+    color: grey;
+}
+
+.queueSection{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 15px;
+    flex-wrap: wrap;
+    transition-duration: 0.2s;
+}
+
+.queueSection:hover{
+    transform: scale(1.1);
+}
+
+.nameandartist{
+    margin-left: 15px;
+}
+
+#artistName{
+    font-size: 0.80rem;
+    color: gray;
+    margin-top: 5px;
+}
+
+.queueSection i{
+    position: absolute;
+    right: 200px;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.controlBar{
+    background-color: black;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.controlBar input{
+    -webkit-appearance: none;
+    background: rgb(43, 39, 39);
+    cursor: pointer;
+    width: 40%;
+    border-radius: 50px;
+
+}
+
+.controlBar input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: green;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+
+.panel1{
+    color: white;
+    display: flex;
+    /* align-items: center; */
+}
+
+.panel1 *:hover{
+    transform: scale(1.1);
+}
+
+.songartistname{
+    margin-left: 20px;;
+}
+.pane1img{
+    display: flex;
+    margin-left: 20px;
+}
+
+.pane1img i{
+    margin-right: 10px;
+    color: grey;
+    font-size: 1rem;
+}
+
+.playingSong audio{
+    width: 500px;
+    background: transparent;
+    color: transparent;
+    height: 15px;
+}
